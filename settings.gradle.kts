@@ -10,3 +10,9 @@ rootProject.name = "repro"
 include("project-z")
 include("project-y")
 include("project-x")
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
