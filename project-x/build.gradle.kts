@@ -1,6 +1,5 @@
 plugins {
  `java-library`
- `consume-java-downgrade`
  kotlin("jvm")
 }
 
